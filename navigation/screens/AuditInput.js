@@ -58,10 +58,10 @@ export default function App() {
 
     const onSubmit = () => {
     // Ambil data audit dari mana pun Anda mendapatkannya
-    const auditFindings = 'Temuan audit';
-    const auditArea = 'Area audit';
-    const auditDate = new Date(); // Tanggal audit
-    const closeDate = new Date(); // Tanggal penutupan audit
+    // const auditFindings = 'Temuan audit';
+    // const auditArea = 'Area audit';
+    // const auditDate = new Date(); // Tanggal audit
+    // const closeDate = new Date(); // Tanggal penutupan audit
 
     // Tampilkan alert setelah submit
     alert(`Data berhasil disimpan\nAudit Findings: ${auditFindings}\nAudit Area: ${auditArea}\nAudit Date: ${auditDate.toDateString()}\nClose Date: ${closeDate.toDateString()}`);
